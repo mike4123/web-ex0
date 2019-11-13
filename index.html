@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+     <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Landing page</title>
+  </head>
+  <body>
+  <div class="container-fluid">
+  
+    
+          <img src="http://cs.hac.ac.il/design/hadassah-logo.png" class="img-responive" alt="Hac"   style="position: absolute; opacity: 0.5; width: 60%;height:40%;margin: auto;left: 0;right: 0;
+top: 0; bottom: 0;" >
+ <div class="row justify-content-center">
+     <h1 style="font-size: 35px;">Hadassah academic college</h1>
+      
+   </div>
+    
+     <div class="row justify-content-center" style="text-align: right;" >
+   
+  
+      
+      <div class="col-md-2" style="border: 1px solid gray;" >
+          <h1 style="font-size: 15px; background: white;" >שם הקורס: תכנות אינטרנט א</h1>
+           </div>
+           <div class="col-md-2" style="border: 1px solid gray;">
+                      <h1 style="font-size: 15px; background: white;">שנה: 2019</h1>
+           </div>
+          <div class="col-md-2" style="border: 1px solid gray;">
+                        <h1 style="font-size: 15px; background: white;">סמסטר: א</h1>
+          </div>
+          <div class="col-md-2" style="border: 1px solid gray;">
+           <h1 style="font-size: 15px; background: white;">שעה: 11:30</h1>   
+          </div>
+          <div class="col-md-2" style="border: 1px solid gray;">
+               <h1 style="font-size: 15px; background: white;">מיקום: חדר 351</h1>
+          </div>
+         <div class="col-md-2" style="border: 1px solid gray;">
+                     <a   target="_blank" href="https://www.google.com" style="background: white;">קישור</a>
+  
+         </div>
+     
+  
+   
+    </div>
+    <div class="row justify-content-center" style="opacity: 0.8; text-align: right;">
+       <table class="table">
+    <thead>
+      <tr>
+        <th>סטודנטים:</th>
+        
+      </tr>
+    </thead>
+    </table>
+    
+    <div class="col-md-4" style=" display: table;
+  margin: auto;background: #01a9f4;padding-bottom: 50px;padding-top: 50px;" id="col1" >
+         <div class="card" id="card1" style="width: 18rem;text-align: right; margin-left:auto;margin-top: 10px;
+   margin-right:auto;
+   display:block;">
+  <img class="card-img-top" src="https://ultimatesoft-il.com/wp-content/uploads/2018/07/20180725_204458-e1532646418629-232x300.jpg" alt="mike_peretz_img" >
+  <div class="card-body">
+    <h5 class="card-title">Mike peretz</h5>
+    <p class="card-text">
+   <a href="mailto:mikeper030@gmail.com">mikeper030@gmail.com</a>
+    </p>
+    <a href="#" class="btn btn-primary" id="card1_btn" onclick="append(1)">פרטים</a>
+  </div>
+  <ul id="card1_list">
+      
+  </ul>
+</div>
+  </div>
+    <div class="col-md-4"   style="background: #007ac1;padding-bottom: 50px;padding-top: 50px;" id="col2" >
+    <div class="card" id="card2" style="width: 18rem; text-align: right; margin-left:auto;
+   margin-right:auto;
+   display:block;">
+  <img class="card-img-top" src="https://www.lifewire.com/thmb/vDB3ply4rHJG_BDWeD0AbuRu-EU=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simpsons_09_Homer_V2F_hires1-56e1eccc5f9b5854a9f89a63.jpg" alt="Homer_simpson_img">
+  <div class="card-body">
+    <h5 class="card-title">Homer simpson</h5>
+    <p class="card-text">
+    <a href="mailto:homersimpson@gmail.com">homersimpson@gmail.com</a>
+    </p>
+    <a  href="#" class="btn btn-primary" id="card2_btn" onclick="append(2)">פרטים</a>
+  </div>
+   <ul id="card2_list">
+      
+  </ul>
+</div>
+        </div>
+    <div class="col-md-4"  style="background: #01a9f4;padding-bottom: 50px;padding-top: 50px;" id="col3">
+   <div class="card" id="card3" style="width: 18rem; text-align: right; margin-left:auto;
+   margin-right:auto;
+   display:block;">
+  <img class="card-img-top" src="https://i1.wp.com/metro.co.uk/wp-content/uploads/2014/07/spongebob1.jpg?quality=90&strip=all&zoom=1&resize=644%2C710" height="375" alt="spongebob_img">
+  <div class="card-body">
+    <h5 class="card-title">Spongebob</h5>
+    <p class="card-text">
+      <a href="mailto:spongebob@gmail.com">spongebob@gmail.com</a>
+      </p>
+    <a href="#" class="btn btn-primary" id="card3_btn" onclick="append(3)">פרטים</a>
+   <ul id="card3_list">
+      
+  </ul>
+  </div>
+</div>
+        </div>   
+  
+      
+    </div>
+  </div>
+  
+    
+
+
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script>
+   
+function append(id){
+
+  
+   
+  var ul = document.getElementById("card"+id+"_list");
+    
+    var directChild =  document.getElementById("card"+id+"_list").children;
+    if(directChild.length==0){
+     
+  var li = document.createElement("li");
+ if(id=="1")        
+  li.appendChild(document.createTextNode("בן 26"));
+   if(id=="2")
+ li.appendChild(document.createTextNode("בן 39"));
+    if(id=="3")
+    li.appendChild(document.createTextNode("בן 17"));  
+ ul.appendChild(li);
+
+  li = document.createElement("li");
+  li.appendChild(document.createTextNode("סטודנט למדמח"));
+  ul.appendChild(li);
+ li = document.createElement("li");
+if(id=="1")  
+  li.appendChild(document.createTextNode("גר בירושלים"));
+        if(id=="2")  
+  li.appendChild(document.createTextNode("גר בספרינגפילד"));
+        if(id=="3")  
+  li.appendChild(document.createTextNode("גר בביקיני בוטום"));
+  ul.appendChild(li);
+    document.getElementById("card"+id+"_btn").innerHTML="חזור";
+        for(var i=1;i<=3;i++){
+           var hide = document.getElementById("col"+i);
+           if(i!=id)
+            hide.style.display="none";
+        }
+    }else{
+        for(var i=1;i<=3;i++){
+           var hide = document.getElementById("col"+i);
+           if(i!=id)
+            hide.style.display="block";
+        }
+       ul.innerHTML=""; 
+        document.getElementById("card"+id+"_btn").innerHTML="פרטים";
+    }
+    
+   
+    
+    
+}    
+
+</script>
+  </body>
+</html>
